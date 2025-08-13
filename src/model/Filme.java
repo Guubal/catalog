@@ -96,6 +96,12 @@ public class Filme {
             atores.add(ator);
         }
     }
+
+    public void adicionarDiretor(Diretor diretor) {
+        if (diretor != null) {
+            this.diretor = diretor;
+        }
+    }
     
     /**
      * Remove um ator do filme
